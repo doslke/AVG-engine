@@ -1,0 +1,23 @@
+.back{
+    -fx-background-image: url("../img/top.png");
+    -fx-background-repeat: no-repeat;
+}
+.button{
+    -fx-background-color: rgba(255,255,255,0);
+}
+.button:hover{
+    -fx-background-color: rgba(255,255,255,0.3);
+}
+.label{
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-background-radius: 10px;
+}
+.button1{
+    -fx-background-color: rgba(0,0,0,0.5);
+}
+.button1:hover{
+    -fx-background-color: rgba(255,255,255,0.7);
+}
+.buttonchoose{
+
+}

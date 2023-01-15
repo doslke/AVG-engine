@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="back" stylesheets="@../cssfile/CssFile_First.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="began" layoutX="80.0" layoutY="285.0" mnemonicParsing="false" onAction="#changeScene" onMouseEntered="#hover" prefHeight="50.0" prefWidth="160.0" text="开始" textFill="#254468">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="load" layoutX="80.0" layoutY="350.0" mnemonicParsing="false" onMouseEntered="#hover" prefHeight="50.0" prefWidth="160.0" text="读取存档" textFill="#254468">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="setting" layoutX="80.0" layoutY="410.0" mnemonicParsing="false" onMouseEntered="#hover" prefHeight="50.0" prefWidth="160.0" text="设置" textFill="#254468">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="photo" layoutX="80.0" layoutY="475.0" mnemonicParsing="false" onMouseEntered="#hover" prefHeight="50.0" prefWidth="160.0" text="相册" textFill="#254468">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="exit" layoutX="80.0" layoutY="540.0" mnemonicParsing="false" onAction="#lexit" onMouseEntered="#hover" prefHeight="50.0" prefWidth="160.0" text="退出游戏" textFill="#254468">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
